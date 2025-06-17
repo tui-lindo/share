@@ -1,6 +1,3 @@
-wget -qO - https://screencast.togethernetworks.com/vladyslav.syrhii/deploy_wazuh.sh | sudo bash
-wget -qO - https://casv1009.kv.sd.priv/deploy_wazuh_linux.sh --no-check-certificate | sudo bash
-
 #!/usr/bin/bash
 
 if [ "$(id -u)" != "0" ]; then
