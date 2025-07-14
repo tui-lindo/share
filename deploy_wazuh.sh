@@ -8,7 +8,7 @@ fi
 apt-get -y update
 apt-get -y install auditd
 
-wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.7.2-1_amd64.deb -O wazuh-agent.deb
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.2-1_amd64.deb -O wazuh-agent.deb
 
 if [ ! -f wazuh-agent.deb ]; then
     echo "Failed to download wazuh-agent package" 1>&2
